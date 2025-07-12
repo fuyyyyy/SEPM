@@ -8,7 +8,7 @@
 </div>
 
 ## News
-* [2025-07-12] Code has released.
+* [2025-07-12] Code has been released.
 * [2025-05-27] Repo created. Code will be released soon.
 
 ## Abstract
