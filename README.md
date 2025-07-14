@@ -17,13 +17,13 @@ Multimodal large language models (MLLMs) have achieved impressive progress in ta
 </div>
 
 ## Preparation
-1. Clone this repository and navigate to SEPM folder
+1. Clone this repository and navigate to SEPM folder.
 ```bash
 git clone https://github.com/fuyyyyy/SEPM.git
 cd SEPM
 ```
 
-2. Install necessary package
+2. Install necessary package.
 ```Shell
 conda create -n sepm python=3.10 -y
 conda activate sepm
