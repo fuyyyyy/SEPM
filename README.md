@@ -50,3 +50,7 @@ CUDA_VISIBLE_DEVICES=0 bash scripts/v1_5/eval/emoset.sh
     year      = {2025},
 }
 ```
+
+
+## Acknowledge
+Our repo is built on LLaVA. We thank the authors for sharing their code.
