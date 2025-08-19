@@ -31,7 +31,7 @@ pip install --upgrade pip
 pip install -e .
 ```
 
-3. Download EmoSet dataset [here](https://github.com/JingyuanYY/EmoSet) and question/stage_1.jsonl [here](https://drive.google.com/file/d/1QQCYp0g0VAuV8QprCHf007VBPp3q1FO1/view?usp=sharing), and place it in the corresponding folder.
+3. Download EmoSet dataset [here](https://github.com/JingyuanYY/EmoSet) and question/stage_1.jsonl [here](https://drive.google.com/file/d/11LD6LtPORgwT6Y_9iE84kKB6O9pGSvD2/view?usp=sharing), and place it in the corresponding folder.
 
 ## Usage
 1. Set the correct path.
