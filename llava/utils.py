@@ -151,7 +151,7 @@ def stage1_to_2(answer1_path, question1_path, question2_path):
                 mask_index_from_file1 = question_map[question_id]['mask_index']  
 
                 if text_from_file1 == 'A':  
-                    new_text = """Identify the predominant emotion conveyed.
+                    new_text = """Please focus on emotion.
 Which of the following descriptions is represented in the image?
 A. Amusement
 C. Awe
@@ -159,7 +159,7 @@ D. Content
 F. Excitement
 Answer with the option's letter from the given choices directly."""
                 elif text_from_file1 == 'B': 
-                    new_text = """Identify the predominant emotion conveyed.
+                    new_text = """Please focus on emotion.
 Which of the following descriptions is represented in the image?
 B. Anger
 E. Disgust
@@ -171,7 +171,7 @@ Answer with the option's letter from the given choices directly."""
                     posi_rate = int(string_parts[0])
                     nega_rate = int(string_parts[1])
 
-                    new_text = f"""Identify the predominant emotion conveyed.
+                    new_text = f"""Please focus on emotion.
 This is an ambiguous emotion.
 Which of the following descriptions is represented in the image?
 A. Amusement
