@@ -4,7 +4,7 @@
 > *ICML, 2025*, [Link](https://openreview.net/pdf?id=IYOksPHJKT)
 >
 > <div align="center">
-<img alt="method" src="image/SEPM.png">
+<img alt="method" src="image/SEPM_.png">
 </div>
 
 ## News
