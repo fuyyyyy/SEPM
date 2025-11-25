@@ -43,11 +43,10 @@ CUDA_VISIBLE_DEVICES=0 bash scripts/v1_5/eval/emoset.sh
 
 ## Citation
 ```bibtex
-@inproceedings{FangSEPM_ICML2025,
-    title     = {Catch Your Emotion: Sharpening Emotion Perception in Multimodal Large Language Models},
-    author    = {Fang, Yiyang and Liang, Jian and Huang, Wenke and Li, He and Su, Kehua and Ye, Mang},
-    booktitle = {ICML},
-    year      = {2025},
+@inproceedings{fangcatch,
+  title={Catch Your Emotion: Sharpening Emotion Perception in Multimodal Large Language Models},
+  author={Fang, Yiyang and Liang, Jian and Huang, Wenke and Li, He and Su, Kehua and Ye, Mang},
+  booktitle={Forty-second International Conference on Machine Learning}
 }
 ```
 
