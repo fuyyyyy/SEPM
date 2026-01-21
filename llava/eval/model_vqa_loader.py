@@ -130,6 +130,9 @@ def eval_model(args):
         logit = F.softmax(logits[0], dim=1)                
         vars = torch.var(logit[:,[319,350]])
 
+        if vars < 0.1: 
+            outputs = f'{round(logit[:,[319]].item() * 100)} {round(logit[:,[350]].item() * 100)}'
+
         prompt_ids = []
         for row in input_ids:
             separator_index = (row == IMAGE_TOKEN_INDEX).nonzero(as_tuple=True)[0].item()
